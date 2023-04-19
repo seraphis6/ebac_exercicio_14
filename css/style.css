@@ -1,0 +1,76 @@
+
+html {
+  scroll-padding-top: 88px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.f-newfont {
+  font-family: 'Tilt Warp';
+}
+.text-colored {
+  color: #30336b ;
+}
+.bg-light-blue {
+  background-color: #ced6e0 ;
+}
+
+
+#cabecalho.navbar {
+  background-color: #30336b ;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #ced6e0 ;
+  color: #30336b ;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.nav-link {
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.navbar-toggler {
+  background-color: #ced6e0 ;
+}
+
+
+.f-newfont > span {
+  color: #30336b ;
+}
+
+
+.nav-cardapio .nav-link.active,
+#contato form button {
+  background-color: #30336b ;
+  color: #ced6e0 ;
+  transition: 0.3s ease;
+}
+
+.nav-cardapio .nav-link:hover,
+#contato form button:hover {
+  opacity: 0.8;
+}
+
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+}
+
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 280px;
+  }
+}
